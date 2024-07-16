@@ -1,0 +1,156 @@
+@media(max-width: 1400px){
+    .form-services{
+        padding: 2rem;
+        padding-bottom: 0;
+    }
+    .form-services__right{
+        margin-top: 4rem;
+    }
+    .form-services__right img{
+        margin: 0 auto;
+    }
+    .form-services__box{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .form-services__box-input,
+    .form-services__box-btn{
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .footer-block__map{
+        width: 100%;
+        height: 500px;
+        position: relative;
+    }
+    .footer-block__contact{
+        padding: 2rem;
+        width: 100%;
+    }
+    .footer-block{
+        padding-top: 5rem;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 1000px){
+    html{
+        font-size: 9px;
+    }
+    .services-page__item{
+        text-transform: none;
+    }
+}
+
+
+@media(max-width: 700px){
+    html{
+        font-size: 8px;
+    }
+    .services-box__item-popular{
+        margin-top: -15px;
+        margin-bottom: 5px;
+    }
+    .services-box__item-popular::before{
+        top: 6px;
+        left: 17px;
+    }
+    .footer__bottom{
+        padding-bottom: 8rem;
+    }
+    .good-block__right{
+        order: -1;
+    }
+    .good{
+        padding: 3rem 0 4rem 0;
+    }
+    .good-block__right-text,
+    .good-block__item-title{
+        font-size: 16px;
+    }
+}
+
+
+
+
+@media(max-width: 576px){
+    .services__page-title{
+        margin-bottom: 2rem;
+        font-size: 32px;
+        line-height: 36px;
+        text-align: center;
+    }
+    .services-box__item-title{
+        margin-bottom: 1rem;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .services-page__item{
+        padding: 1rem;
+    }
+    .services-page__link{
+        margin-bottom: 2rem;
+        padding-left: 0;
+    }
+    .services-box__item-text,
+    .footer-block__contact-text{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .beadrcrumbs__list li a{
+        font-size: 16px;
+    }
+    .beadrcrumbs{
+        padding: 1rem;
+    }
+    .beadrcrumbs__list li:nth-child(2)::before{
+        top: 0;
+        left: -14px;
+    }
+    .form-services__left-title{
+        margin-bottom: 3rem;
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .form-services__box-text{
+        font-size: 18px;
+    }
+    .form-services__box{
+        gap: 1rem;
+    }
+    .form-services__box-input,
+    .form-services__box-btn{
+        height: 6rem;
+        line-height: 6rem;
+    }
+    .footer-block__map{
+        display: none;
+    }
+    .footer-block{
+        padding-top: 3rem;
+    }
+    .footer-block__contact-title{
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .footer-block__contact{
+        padding: 0;
+    }
+    .good-block__right-title{
+        margin-bottom: 2rem;
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .good-block__item{
+        width: 100%;
+    }
+    .good-block__item-title{
+        font-size: 18px;
+    }
+    .good-block__item-title{
+        margin-left: 1.5rem;
+    }
+    .good-block__item img{
+        width: 40px;
+    }
+}
