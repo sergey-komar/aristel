@@ -1,6 +1,7 @@
 .wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    overflow-x: hidden;
 }
 .header {
     min-width: 36rem;

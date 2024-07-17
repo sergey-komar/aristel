@@ -1,3 +1,81 @@
+@media(max-width: 1910px){
+    .slider-box__right-title{
+        max-width: 60rem;
+    }
+    .slider-box .slick-dots {
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .slider-box .slick-dots li button{
+        padding: 0;
+        font-size: 0;
+        border: none;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #8f8c8c;
+    }
+    .slider-box{
+        max-width: 110rem;
+    }
+    .problem-box__item--left .problem-box__item-text::after, .problem-box__item--right .problem-box__item-text::before{
+        width: 120px;
+    }
+    .problem-box__item--left .problem-box__item-text::after{
+        right: -130px;
+    }
+    .problem-box__item--right .problem-box__item-text::before{
+        left: -130px;
+    }
+}
+@media(max-width: 1600px){
+    .offer-block__right-promotion,
+    .offer-block__right-text,
+    .offer-block__right-btn{
+        margin-left: 14rem;
+    }
+    .offer-block__right-promotion{
+        font-size: 3rem;
+    }
+    .offer-block__right-text,
+    .offer-block__right-text{
+        font-size: 2.7rem;
+        line-height: 3.1rem;
+    }
+    .offer{
+        background-position-x: -15rem;
+    }
+    .slider-box__item{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .slider-box__right{
+        width: 100%;
+    }
+    .slider-box__right-title{
+        font-size: 5rem;
+        max-width: 100%;
+    }
+    .slider-box__right{
+        margin-left: 0;
+    }
+    .slider-box{
+        max-width: 70rem;
+    }
+    .slider-box__right-text{
+        background-color: transparent;
+    }
+    .problem-box__item--left .problem-box__item-text::after, .problem-box__item--right .problem-box__item-text::before{
+        display: none;
+    }
+}
+
+
+
 @media(max-width: 1400px){
     .form-services{
         padding: 2rem;
@@ -31,7 +109,44 @@
         padding-top: 5rem;
         flex-direction: column;
     }
+    .offer-block__left-img{
+        display: block;
+    }
+    .offer{
+        background: none;
+    }
+    .offer-block__right-promotion,
+    .offer-block__right-text,
+    .offer-block__right-btn{
+        margin-left: 0;
+    }
+    .offer-block__right-promotion{
+        margin-bottom: 2rem;
+    }
+    .services-home__item{
+        font-size: 2.4rem;
+    }
+    .services-home__item{
+        max-width: 23rem;
+        padding-bottom: 1rem;
+    }
+    .services-link{
+        flex-wrap: wrap;
+    }
+    .services-home{
+        padding: 3rem 0 3rem 0;
+    }
+    .slider-box{
+        max-width: 60rem;
+    }
+    .problem-box__item--right{
+        display: none;
+    }
 }
+
+
+
+
 
 @media(max-width: 1000px){
     html{
@@ -39,6 +154,20 @@
     }
     .services-page__item{
         text-transform: none;
+    }
+    .slider-box__right-title{
+        font-size: 4rem;
+        line-height: 4.4rem;
+    }
+    .slider-box__right-subtitle{
+        font-size: 3rem;
+    }
+    .slider-box{
+        max-width: 40rem;
+    }
+    .slider-box__left img{
+        margin-bottom: 2rem;
+        width: 400px;
     }
 }
 
@@ -66,7 +195,27 @@
     }
     .good-block__right-text,
     .good-block__item-title{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .slider-box{
+        max-width: 100%;
+    }
+    .slider-box__right-text,
+    .slider-box__right-text p{
+        padding: 0;
+        margin-left: 0;
         font-size: 16px;
+        line-height: 20px;
+    }
+    .slider-box__right-btn{
+        height: 6rem;
+        line-height: 6rem;
+        max-width: 200px;
+        margin-left: auto;
+    }
+    .problem{
+        padding: 4rem 0 4rem 0;
     }
 }
 
@@ -94,8 +243,8 @@
     }
     .services-box__item-text,
     .footer-block__contact-text{
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 18px;
+        line-height: 22px;
     }
     .beadrcrumbs__list li a{
         font-size: 16px;
@@ -129,14 +278,16 @@
     .footer-block{
         padding-top: 3rem;
     }
-    .footer-block__contact-title{
+    .footer-block__contact-title,
+    .slider__title{
         font-size: 24px;
         line-height: 26px;
     }
     .footer-block__contact{
         padding: 0;
     }
-    .good-block__right-title{
+    .good-block__right-title,
+    .offer__title{
         margin-bottom: 2rem;
         font-size: 24px;
         line-height: 31px;
@@ -145,12 +296,84 @@
         width: 100%;
     }
     .good-block__item-title{
-        font-size: 18px;
+        font-size: 20px;
     }
     .good-block__item-title{
         margin-left: 1.5rem;
     }
     .good-block__item img{
         width: 40px;
+    }
+    .offer{
+        padding: 0rem 0 3rem 0;
+    }
+    .offer__title{
+        margin-bottom: 0;
+    }
+    .offer-block__left-img{
+        margin-bottom: 2rem;
+    }
+    .offer-block__right-promotion{
+        font-size: 2.2rem;
+    }
+    .offer-block__right-text, .offer-block__right-text{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .offer-block__right-btn{
+        max-width: 200px;
+        margin-left: auto;
+        height: 5rem;
+        line-height: 5rem;
+        margin-top: 0;
+    }
+    .services-home__item{
+        display: none;
+        padding-bottom: 0;
+    }
+    .services-home__item--mobile{
+        display: block;
+    }
+    .slider-services__item{
+       margin: 0 5px 20px 5px;
+    }
+    .slider-services__item-title,
+    .problem__title{
+        margin-bottom: 5px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .slider-services .slick-list {
+        padding: 0 30px !important;
+    }
+    .services-home{
+        padding-top: 0;
+    }
+    .slider-box .slick-dots li button{
+        width: 10px;
+        height: 10px;
+    }
+    .slider-box__right-title{
+        margin-bottom: 2rem;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .slider-box__right-subtitle{
+        margin-bottom: 2rem;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .problem-box .problem-box__item-inner{
+        width: 50% !important;
+    }
+    .problem-box__item--left .problem-box__item-text, .problem-box__item--right .problem-box__item-text{
+        padding: 1rem;
+        font-size: 16px;
+    }
+    .problem__title{
+        margin-bottom: 20px;
+    }
+    .logo-mobile .logo img{
+        width: 120px !important;
     }
 }

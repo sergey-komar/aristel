@@ -42,7 +42,9 @@
     font-size: 6rem;
     line-height: 6.6rem;
 }
-
+.offer-block__left-img{
+    display: none;
+}
 .offer-block__right-promotion {
     margin-bottom: 10rem;
     font-size: 3.4rem;
@@ -66,7 +68,7 @@
 .services-home{
     padding: 9.5rem 0 7rem 0;
 }
-.services-link__item-text {
+.services-home__item{
     max-width: 33rem;
     margin: 0 auto 3.5rem auto;
     padding-bottom: 3rem;
@@ -77,60 +79,6 @@
     color: rgb(115, 174, 190);
     border-bottom: 3px solid rgb(115, 174, 190);
 }
-// .services-home {
-//     position: relative;
-// }
-// .services-home::before{
-//     position: absolute;
-//     content: '';
-//     width: 500px;
-//     height: 100%;
-//     background: url('../images/home/offer-bg.png') no-repeat;
-//     left: 40%;
-//     bottom: -150px;
-//     transform: translateX(-50%);
-//     z-index: -1;
-// }
-// .services-box__item {
-//     display: flex;
-//     flex-direction: column;
-//     height: 100%;
-//     margin: 0rem 10px 0rem 10px;
-// }
-// .services-box__item-popular {
-//     position: relative;
-//     width: 22rem;
-//     height: 3rem;
-//     margin: -20px auto 15px auto;
-//     line-height: 3rem;
-//     text-align: center;
-//     color: #fff;
-//     border-radius: 57.62px;
-//     background: rgb(115, 174, 190);
-//     z-index: 1;
-// }
-// .services-box__item-popular::before{
-//     position: absolute;
-//     content: '';
-//     width: 15px;
-//     height: 15px;
-//     background: url('../images/home/offer-star.svg') no-repeat;
-//     top: 8px;
-//     left: 25px;
-// }
-// .services-box__item-title {
-//     margin-bottom: 15px;
-//     font-size: 3.7rem;
-//     line-height: 4.1rem;
-//     text-align: center;
-// }
-// .services-box__item-text {
-//     margin-top: auto;
-//     margin-bottom: 5rem;
-//     font-size: 18px;
-//     line-height: 24px;
-//     text-align: center;
-// }
 
 
 .problem {

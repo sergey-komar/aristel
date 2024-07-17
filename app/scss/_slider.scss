@@ -10,6 +10,7 @@
 .slider-box__item {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .slider-box__left {
     position: relative;
@@ -54,16 +55,17 @@
     transform: translate(-50% ,-50%);
 }
 .slider .slick-next{
-    left: 0;
+    left: 100%;
     width: 156px;
-    border-top-right-radius: 150px;
-    border-bottom-right-radius: 150px;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
 }
 .slider .slick-prev{
     width: 156px;
-    left: 100%;
-    border-top-left-radius: 150px;
-    border-bottom-left-radius: 150px;
+    left: 0;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+   
     z-index: 9;
 }
 .slider .slick-next::before,
@@ -77,14 +79,14 @@
     z-index: 9;
 }
 .slider .slick-next::before{
-    background: url('../images/home/slider-arrows-left.svg') no-repeat;
-    top: 22%;
-    left: 60%;
-}
-.slider .slick-prev::before{
     background: url('../images/home/slider-arrows-rihgt.svg') no-repeat;
     top: 22%;
     right: -40%;
+}
+.slider .slick-prev::before{
+    background: url('../images/home/slider-arrows-left.svg') no-repeat;
+    top: 22%;
+    left: 60%;
 }
 .slider-box__right-btn{
     max-width: 37rem;
@@ -103,6 +105,8 @@
 .slider-services__inner{
     display: flex;
     gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .slider-services::before{
     position: absolute;
@@ -161,7 +165,6 @@
 .slider-services .slick-next,
 .slider-services .slick-prev{
     position: absolute;
-    position: absolute;
     font-size: 0;
     padding: 0;
     border: none;
@@ -172,11 +175,15 @@
     z-index: 5;
 }
 .slider-services .slick-next{
-    background: url('../images/home/slider-left-services.png') no-repeat;
-    left: 60px;
-}
-.slider-services .slick-prev{
     background: url('../images/home/slider-rihgt-services.png') no-repeat;
     right: -58px;
+}
+.slider-services .slick-prev{
+    background: url('../images/home/slider-left-services.png') no-repeat;
+    left: 60px;
+   
+}
+.services-home__item--mobile{
+    display: none;
 }
 

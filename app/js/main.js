@@ -1,22 +1,62 @@
 $(function () {
     $('.slider-box').slick({
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1915,
+            settings: {
+             arrows: false,
+             dots: true
+            },
+          },
+         
+        ],
       
      });
+
+
      $('.slider-services--one').slick({
          slidesToShow: 1,
-         slidesToScroll: 1
+         slidesToScroll: 1,
+         responsive: [
+            {
+              breakpoint: 550,
+              settings: {
+               arrows: false,
+               centerMode: true
+              },
+            },
+           
+          ],
         });
      
     $('.slider-services--two').slick({
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+            {
+              breakpoint: 550,
+              settings: {
+               arrows: false
+              },
+            },
+           
+          ],
       
      });
     $('.slider-services--three').slick({
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+            {
+              breakpoint: 550,
+              settings: {
+               arrows: false
+              },
+            },
+           
+          ],
       
      });
 
