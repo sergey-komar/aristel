@@ -1,4 +1,5 @@
 .beadrcrumbs {
+    margin-top: 8rem;
     padding: 2.5rem 0 2.5rem 1.5rem;
 }
 .beadrcrumbs__list {
@@ -27,22 +28,47 @@
     font-size: 6rem;
     line-height: 6.6rem;
 }
-.services-page__link {
-    padding-left: 1.5rem;
+.services-box__item{
     margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
 }
-.services-page__item {
-    padding: 1.5rem;
-    font-size: 2.2rem;
-    text-transform: uppercase;
+.services-box__item-popular {
+    position: relative;
+    width: 22rem;
+    height: 3rem;
+    margin: -20px auto 15px auto;
+    line-height: 3rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 57.62px;
+    background: rgb(115, 174, 190);
+    z-index: 1;
+}
+.services-box__item-popular::before{
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 15px;
+    background: url('../images/home/offer-star.svg') no-repeat;
+    top: 8px;
+    left: 25px;
+}
+.services-box__item-title {
+    margin-bottom: 15px;
+    font-size: 3.7rem;
+    line-height: 4.1rem;
     text-align: center;
 }
-.services-page__item--active{
-    color: #fff;
-    background: rgb(115, 174, 190);
+.services-box__item-text {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
 }
+
+
 .form-services {
-    margin-bottom: 2.5rem;
+    margin-bottom: 7.5rem;
     padding: 7rem 7rem 0 7rem;
     border: 2px solid rgb(115, 174, 190);
     background: linear-gradient(180.00deg, rgba(115, 175, 189, 0.04) 47.5%,rgba(115, 175, 189, 0.22) 100%),rgb(255, 255, 255);
@@ -75,4 +101,18 @@
     margin-left: 3rem;
     height: 9.4rem;
     font-size: 2.2rem;
+}
+
+
+
+//SALLON
+.services-box__wrapper{
+    margin-bottom: 3rem;
+}
+.services-box__wrapper-title{
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+    font-size: 4.5rem;
+    line-height: 5.1rem;
+    border-bottom: 1px solid rgb(115, 174, 190);
 }

@@ -1,0 +1,111 @@
+.slider-about{
+    margin-bottom: 7rem;
+}
+.heading__video--about{
+   width: 100%;
+}
+.block-hidden{
+    display: none;
+}
+.about-top-img {
+    position: relative;
+    margin-bottom: 20px;
+}
+.about-top-img-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.director {
+    padding-bottom: 7.5rem;
+}
+.director-block {
+    align-items: center;
+}
+.director-block__text {
+    position: relative;
+    width: 63rem;
+    margin: 0 auto 2rem auto;
+    font-size: 20px;
+}
+.director-block__text p{
+    margin-bottom: 2rem;
+    font-size: 20px;
+    line-height: 24PX;
+}
+.director-block__text::before,
+.director-block__text::after{
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 50px;
+}
+.director-block__text::before{
+    background: url('../images/about/covichki-left.svg') no-repeat;
+    top: -60px;
+    left: -40px;
+}
+.director-block__text::after{
+    background: url('../images/about/covichki-right.svg') no-repeat;
+    bottom: -60px;
+    right: -40px;
+}
+.director-block__content {
+    margin-left: 30px;
+}
+.director-block__content-img {
+    margin: 0 auto 4.5rem auto;
+}
+.director-block__content-title {
+    margin-bottom: 5px;
+    font-size: 3.4rem;
+    line-height: 3.8rem;
+    text-align: center;
+    color: rgb(115, 174, 190);
+}
+.director-block__content-subtitle {
+    text-align: center;
+    font-size: 3.4rem;
+    line-height: 3.8rem;
+}
+.about-picture {
+    margin-bottom: 5rem;
+}
+.about-picture__img {
+    width: 100%;
+    object-fit: cover;
+}
+.about-picture__text {
+    padding: 4rem 8rem;
+    background: rgb(0, 0, 0);
+}
+.about-picture__text p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+}
+.successes {
+    padding-top: 9rem;
+    min-height: 64rem;
+    background: url('../images/about/Group 172.png') no-repeat;
+    background-size: cover;
+
+}
+.successes-block__content {
+    margin-left: 5rem;
+}
+.successes-block__content-title {
+    margin-bottom: 5rem;
+    font-size: 4.5rem;
+    line-height: 4.9rem;
+}
+.successes-block__content-text {
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 22px;
+}
+.successes-block__img {
+    display: none;
+}

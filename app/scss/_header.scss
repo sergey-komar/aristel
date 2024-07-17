@@ -89,3 +89,35 @@
 .overflow{
     overflow: hidden;
 }
+
+
+//menu stiky
+.menu-stiky{
+    position: fixed;
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    z-index: 2;
+    background-color: #fff;
+}
+.stiky-menu__list{
+    margin-bottom: 3rem;
+    display: flex;
+    gap: 11rem;
+}
+.stiky-menu__list li a{
+    padding: 1rem;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    color: #fff;
+    background: #73aebe;
+}
+.about__title h1{
+    margin-bottom: 3rem;
+    font-size: 6rem;
+    line-height: 6.6rem;
+}
+.stiky-menu__list li a.menu__item-active--stiky{
+    background-color: transparent;
+    color: #000;
+}
