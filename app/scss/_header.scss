@@ -23,8 +23,6 @@
 .menu {
     min-width: 36rem;
 }
-.menu__list {
-}
 .menu__list li{
     margin-bottom: 3rem;
     text-align: center;
@@ -50,7 +48,7 @@
     font-size: 2.2rem;
 }
 .header-box__btn {
-    margin-bottom: 11.5rem;
+    margin-bottom: 9.5rem;
     width: 290px;
     height: 65px;
     line-height: 65px;
@@ -84,7 +82,9 @@
     width: 100%;
 }
 .logo-mobile{
-    display: none;
+    // display: none;
+    opacity: 0;
+    transition: all .3s ease-in;
 }
 .overflow{
     overflow: hidden;
@@ -97,8 +97,9 @@
     width: 100%;
     padding-top: 4rem;
     padding-bottom: 2rem;
-    z-index: 2;
+    z-index: 5;
     background-color: #fff;
+    transition: all .3s ease-in;
 }
 .stiky-menu__list{
     margin-bottom: 3rem;

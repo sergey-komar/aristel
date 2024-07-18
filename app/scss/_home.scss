@@ -111,14 +111,20 @@
     background-color: rgb(115, 174, 190);
 }
 .problem-box__item--left .problem-box__item-text::after{
-    right: -220px;
+    right: -250px;
 }
 .problem-box__item--right .problem-box__item-text::before{
-    left: -220px;
+    left: -250px;
 }
 .problem-box__item--right .problem-box__item-text{
     margin-left: auto;
 } 
 .problem-box__item-text:nth-child(odd) {
     background: rgb(250, 237, 221);
+}
+.problem-box__item--left .problem-box__item-text:nth-child(odd)::after{
+    right: -200px;
+}
+.problem-box__item--right .problem-box__item-text:nth-child(odd):before{
+    left: -200px;
 }

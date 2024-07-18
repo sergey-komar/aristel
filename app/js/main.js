@@ -4,10 +4,17 @@ $(function () {
         slidesToScroll: 1,
         responsive: [
           {
-            breakpoint: 1915,
+            breakpoint: 1600,
             settings: {
              arrows: false,
              dots: true
+            },
+          },
+          {
+            breakpoint: 700,
+            settings: {
+             arrows: true,
+             dots: false
             },
           },
          
@@ -76,6 +83,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 
     const logoModile = document.querySelector(".logo-mobile");
+    const menStiky = document.querySelector('.menu-stiky');
 
     if (logoModile) {
       window.addEventListener("scroll", () => {
@@ -84,6 +92,12 @@ window.addEventListener('DOMContentLoaded', () => {
         } else {
           logoModile.classList.remove("logo-mobile-hidden");
         }
+        if (window.scrollY) {
+          menStiky.classList.add('menu-stiky-top');
+        } else {
+          menStiky.classList.remove('menu-stiky-top');
+        }
+        
       });
     }
 

@@ -55,7 +55,7 @@
     transform: translate(-50% ,-50%);
 }
 .slider .slick-next{
-    left: 100%;
+    right:   calc(5% - 230px);
     width: 156px;
     border-top-left-radius: 150px;
     border-bottom-left-radius: 150px;
