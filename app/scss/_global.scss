@@ -6,7 +6,7 @@ body {
 	margin: 0;
 	scroll-behavior: smooth;
 	font-family: 'Optimal';
-	color: rgb(67, 67, 67);
+	color: #434343;
 	font-weight: 400;
 	font-size: 1.6rem;
 	line-height: 2rem;
@@ -34,8 +34,12 @@ button{
 .btn-page{
 	display: block;
 	border: none;
-	background: rgb(115, 174, 190);
+	background: #73aebe;
 	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
+}
+.title{
+	font-size: 4.5rem;
+	color: #434343;
 }

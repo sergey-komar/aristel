@@ -1,0 +1,88 @@
+.specialists__title {
+    font-size: 6rem;
+    margin-bottom: 3rem;
+}
+.specialists__img {
+    margin-bottom: 4rem;
+    width: 100%;
+    object-fit: cover;
+}
+.specialists-block__title {
+   margin-bottom: 6rem;
+}
+.specialists__inner{
+    margin-bottom: 8rem;
+    padding: 5rem;
+    background: url('../images/specialists/specialists-director-bg.jpg') no-repeat;
+    background-size: cover;
+}
+.specialists-block__content {
+    padding: 2rem 3rem 5rem 3rem;
+    background-color: #fff;
+}
+.specialists-block__content-text {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.4;
+}
+.specialists-block__content-title {
+    margin-top: 7rem;
+    font-size: 4rem;
+    line-height: 4.4rem;
+    color: #73aebe;
+    text-align: right;
+}
+.specialists-block__content-subtitle {
+    text-align: right;
+    margin-left: auto;
+    font-size: 4rem;
+    line-height: 4.4rem;
+}
+.job_-title {
+  margin-bottom: 5rem;
+   border-bottom: 1px solid #73aebe;
+}
+.job-box {
+    margin-bottom: 7rem;
+}
+.job-box__item-img {
+    margin-bottom: 3.5rem;
+}
+.job-box__item-title {
+    margin-bottom: 15px;
+    font-size: 3.4rem;
+    color: #73aebe;
+}
+.job-box__item-text {
+    font-size: 3rem;
+}
+
+
+//specialist
+.specialist-info__title {
+    margin-bottom: 4.5rem;
+    border-bottom: 1px solid #73aebe;
+}
+.specialist-info__list {
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+}
+.specialist-info__list-item {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 24px;
+    list-style: disc;
+}
+.specialist-info__subtitle {
+    margin-bottom: 3rem;
+    font-size: 3.4rem;
+    line-height: 3.8rem;
+}
+
+//certificates
+.certificates{
+    padding-bottom: 4rem;
+}
+.certificates-box__item {
+    margin-bottom: 3rem;
+}
