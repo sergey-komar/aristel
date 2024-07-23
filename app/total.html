@@ -96,130 +96,68 @@
             <div class="container-fluid">
                 <ul class="beadrcrumbs__list">
                     <li><a href="#">Главная</a></li>
-                    <li><a href="#">Специалисты</a></li>
+                    <li><a href="#">Оформление заказа</a></li>
                 </ul>
             </div>
         </div>
       <main class="main">
-       <section class="specialists">
-        <div class="container-fluid">
-            <h1 class="specialists__title">Специалисты</h1>
-        </div>
-        <img src="./images/specialists/specialists-bg.jpg" alt="img" class="specialists__img">
-
-        <div class="container-fluid">
-            <h3 class="specialists-block__title title">Руководство</h3>
-        </div>
-        <div class="specialists__inner">
+        <section class="total">
             <div class="container-fluid">
-                <div class="row specialists-block">
-                    <div class="col-xl-4">
-                     <img src="./images/specialists/specialists-director.jpg" alt="img" class="specialists-block__img">
+                <h1 class="total__title">
+                    Оформление заказа
+                </h1>
+                <div class="row total-block">
+                    <div class="col-xl-7">
+                        <form class="total-block__form">
+                            <div class="total-block__item">
+                                <div class="total-block__item-title title">
+                                    Данные отправителя
+                                </div>
+                                <input type="text" class="total-block__item-input" placeholder="Ваше имя">
+                                <p class="total-block__item-text">
+                                    Сертификат будет оправлен в качестве подарка от вашего имени.
+                                </p>
+                                <input type="text" class="total-block__item-input" placeholder="Ваш телефон">
+                                <input type="text" class="total-block__item-input" placeholder="Ваш Email">
+                            </div>
+                           
+                            <div class="total-block__item">
+                                <div class="total-block__item-title title">Данные получателя</div>
+                                <input type="text" class="total-block__item-input" placeholder="Имя получателя">
+                                <input type="text" class="total-block__item-input" placeholder="Телефон получателя">
+                                <input type="text" class="total-block__item-input" placeholder="Email получателя">
+                                <p class="total-block__item-text">
+                                    На этот Email будет отправлен сертификат. Если вы не знаете Email получателя, то укажите свой. Когда вы получите письмо с сертификатом, то сможете переслать его или распечатать и вручить лично.
+                                </p>
+                            </div>
+                            <div class="total-block__item">
+                                <div class="total-block__item-title title">Что написать в письме</div>
+                                <textarea class="total-block__item-textarea"></textarea>
+                                <button class="total-block__item-btn">Создать текст поздравления</button>
+                                <p class="total-block__item-text">
+                                    Вы можете написать поздравление самостоятельно или воспользоваться генератором. Для генерации нажмите кнопку «Создать текст поздравление»
+                                </p>
+                            </div>
+                           
+                        </form>
                     </div>
-                    <div class="col-xl-8">
-                     <div class="specialists-block__content">
-                         <p class="specialists-block__content-text">
-                             С 2008 года дом красоты и эстетики ARISTEL открыл свои двери для гостей , заложив в основу работы принцип триединства Отдыха,Здоровья и Красоты. Мы создаем атмосферу домашнего уюта и гостеприимства, комфорта и постоянной заботы о каждом госте.
-                         </p>
-                         <p class="specialists-block__content-text">
-                             С 2008 года дом красоты и эстетики ARISTEL открыл свои двери для гостей , заложив в основу работы принцип триединства Отдыха,Здоровья и Красоты. Мы создаем атмосферу домашнего уюта и гостеприимства, комфорта и постоянной заботы о каждом госте.
-                         </p>
-                         
-                         <div class="specialists-block__content-title">Елена Цимбал</div>
-                         <div class="specialists-block__content-subtitle">Генеральный директор</div>
-                     </div>
+                    <div class="col-xl-5">
+                        <div class="total-block__right">
+                            <img src="./images/home/present-sertificate.png" alt="img" class="total-block__right-img">
+                            <label class="feedback-box__label">
+                                <input type="checkbox" class="feedback-box__label-input">
+                                <span class="feedback-box__label-checkbox"></span>
+                                <p class="feedback-box__checkbox-text">
+                                    Я согласен c 
+                                 <a href="">офертой на оказание услуг</a>
+                                </p>
+                            </label>
+                            <button class="total-block__btn">Оформить</button>
+                        </div>
                     </div>
-                 </div>
+                </div>
             </div>
-        </div>
-       
-       </section>
-
-       <section class="job">
-        <div class="container-fluid">
-            <h3 class="job_-title title">Администраторы</h3>
-            <div class="row job-box">
-                <a href="./specialist.html" class="col-xl-4 col-md-6">
-                    <div class="job-box__item">
-                        <img src="./images/specialists/specialists-img-1.jpg" alt="img" class="job-box__item-img">
-                        <div class="job-box__item-title">Анна Шаблавина</div>
-                        <p class="job-box__item-text">Администратор</p>
-                    </div>
-                </a>
-                <a href="#" class="col-xl-4 col-md-6">
-                    <div class="job-box__item">
-                        <img src="./images/specialists/specialists-img-2.jpg" alt="img" class="job-box__item-img">
-                        <div class="job-box__item-title">Верещак Анастасия</div>
-                        <p class="job-box__item-text">Администратор</p>
-                    </div>
-                </a>
-                <a href="#" class="col-xl-4 col-md-6">
-                    <div class="job-box__item">
-                        <img src="./images/specialists/specialists-img-3.jpg" alt="img" class="job-box__item-img">
-                        <div class="job-box__item-title">Батыршина Гульнара</div>
-                        <p class="job-box__item-text">Администратор</p>
-                    </div>
-                </a>
-            </div>
-        </div>
-       </section>
-       <section class="job">
-        <div class="container-fluid">
-            <h3 class="job_-title title">Врачи</h3>
-            <div class="row job-box">
-                <a href="#" class="col-xl-4 col-md-6">
-                    <div class="job-box__item">
-                        <img src="./images/specialists/specialists-img-1.jpg" alt="img" class="job-box__item-img">
-                        <div class="job-box__item-title">Анна Шаблавина</div>
-                        <p class="job-box__item-text">Администратор</p>
-                    </div>
-                </a>
-                <a href="#" class="col-xl-4 col-md-6">
-                    <div class="job-box__item">
-                        <img src="./images/specialists/specialists-img-2.jpg" alt="img" class="job-box__item-img">
-                        <div class="job-box__item-title">Верещак Анастасия</div>
-                        <p class="job-box__item-text">Администратор</p>
-                    </div>
-                </a>
-                <a href="#" class="col-xl-4 col-md-6">
-                    <div class="job-box__item">
-                        <img src="./images/specialists/specialists-img-3.jpg" alt="img" class="job-box__item-img">
-                        <div class="job-box__item-title">Батыршина Гульнара</div>
-                        <p class="job-box__item-text">Администратор</p>
-                    </div>
-                </a>
-            </div>
-        </div>
-       </section>
-       
-       <section class="job">
-        <div class="container-fluid">
-            <h3 class="job_-title title">Массажисты</h3>
-            <div class="row job-box">
-                <a href="#" class="col-xl-4 col-md-6">
-                    <div class="job-box__item">
-                        <img src="./images/specialists/specialists-img-1.jpg" alt="img" class="job-box__item-img">
-                        <div class="job-box__item-title">Анна Шаблавина</div>
-                        <p class="job-box__item-text">Администратор</p>
-                    </div>
-                </a>
-                <a href="#" class="col-xl-4 col-md-6">
-                    <div class="job-box__item">
-                        <img src="./images/specialists/specialists-img-2.jpg" alt="img" class="job-box__item-img">
-                        <div class="job-box__item-title">Верещак Анастасия</div>
-                        <p class="job-box__item-text">Администратор</p>
-                    </div>
-                </a>
-                <a href="#" class="col-xl-4 col-md-6">
-                    <div class="job-box__item">
-                        <img src="./images/specialists/specialists-img-3.jpg" alt="img" class="job-box__item-img">
-                        <div class="job-box__item-title">Батыршина Гульнара</div>
-                        <p class="job-box__item-text">Администратор</p>
-                    </div>
-                </a>
-            </div>
-        </div>
-       </section>
+        </section>
       </main> 
       <footer class="footer">
         <div class="footer-wrapper">
@@ -257,7 +195,7 @@
               Информация носит исключительно справочный характер и ни при каких условиях информационные материалы и цены, размещенные на сайте, не являются публичной офертой.
             </p>
             <p class="footer__bottom-copyright">
-              © 1999 - 2024 Дом красоты и эстетики Aristel 
+              © 1999 - 2024 Дом красоты и эстетики Aristel
             </p>
         </div>
        

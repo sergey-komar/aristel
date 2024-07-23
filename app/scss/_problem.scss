@@ -1,0 +1,47 @@
+.services--problem{
+    padding-bottom: 5rem;
+}
+.treatment__title {
+    margin-bottom: 2rem;
+    font-size: 6rem;
+    line-height: 6.4rem;
+}
+.treatment-box {
+    margin-bottom: 4rem;
+}
+.treatment-box__img {
+    height: 100%;
+}
+.treatment-box__img img{
+    width: 100%;
+    object-fit: cover;
+    height: inherit;
+}
+.treatment-box__text p{
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    line-height: 1.4;
+}
+.formation {
+    margin-bottom: 5rem;
+}
+.causes {
+    padding-bottom: 5rem;
+}
+.causes__title {
+    margin-bottom: 3rem;
+}
+.causes__text {
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    line-height: 1.4;
+}
+.causes__list {
+    margin-left: 2rem;
+}
+.causes__list-item {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    line-height: 1.4;
+    list-style: disc;
+}

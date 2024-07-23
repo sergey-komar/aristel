@@ -1,0 +1,135 @@
+.genius {
+    padding: 6rem 0;
+}
+.genius-box__content-text {
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    line-height: 1.4;
+}
+.genius-box__img img{
+   margin: 0 auto;
+}
+.price {
+    padding: 9rem 0 4rem 0;
+    background: url('../images/service/price-bg.png') no-repeat;
+    background-size: cover;
+}
+.price__title {
+    margin-bottom: 6.5rem;
+    text-align: center;
+}
+.price-box {
+    margin-bottom: 30px;
+}
+.price-box__item {
+    max-width: 120rem;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #faeddd;
+}
+.price-box__item-text {
+    font-size: 2.4rem;
+    color: #000;
+}
+.price-block {
+    margin-bottom: 30px;
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 3rem 8rem;
+    background-color: #fff;
+}
+.price-block__text {
+    margin-bottom: 2rem;
+    font-size: 2.4rem;
+    line-height: 1.1;
+}
+.price-block__list {
+    margin-left: 2rem;
+}
+.price-block__list-item {
+    margin-bottom: 15px;
+    font-size: 2.4rem;
+    line-height: 1.1;
+    list-style: disc;
+}
+.lutronic {
+    padding: 9rem 5rem;
+    background: url('../images/service/lutronic-bg.png') no-repeat;
+    background-size: cover;
+}
+.lutronic-box__content-title {
+    margin-bottom: 5rem;
+}
+.lutronic-box__content-text {
+    margin-bottom: 2rem;
+    font-size: 2.4rem;
+    line-height: 1.1;
+}
+.lutronic-box__list {
+    margin-left: 2rem;
+}
+.lutronic-box__list-item {
+    margin-bottom: 15px;
+    font-size: 2.4rem;
+    line-height: 1.1;
+    list-style: disc;
+}
+.tabs {
+    padding: 7rem 3rem;
+}
+.tabs__item {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+.tabs__item-btn {
+    padding: 1.5rem 3rem;
+    font-size: 3.5rem;
+    line-height: 1.1;
+    text-align: center;
+    cursor: pointer;
+}
+.tabs-active{
+    color: #fff;
+    background: #73aebe;
+}
+.tabs__content {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+.tabs__left {
+    width: 50%;
+}
+.tabs__left-text {
+    margin-bottom: 2rem;
+    font-size: 18px;
+}
+.tabs__list {
+   margin: 0 0 4rem 2rem;
+}
+.tabs__list-item {
+    margin-bottom: 15px;
+    font-size: 18px;
+    list-style: disc;
+}
+.tabs__left-subtitle {
+    font-size: 2.8rem;
+    line-height: 1.1;
+}
+.tabs__right {
+    width: 50%;
+}
+.slider-about__title{
+    margin-bottom: 2rem;
+}
+.tabs-show{
+    display: flex;
+}
+.tabs-hide{
+    display: none;
+}

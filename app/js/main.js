@@ -178,7 +178,47 @@ const headingBlock = document.querySelector(".heading-block");
     );
   }
 
+    const tabsItem = document.querySelector('.tabs__item');
+    const tabsItemBtn = document.querySelectorAll('.tabs__item-btn');
+    const tabsContent = document.querySelectorAll('.tabs__content');
+
+    function tabsHide(){
+        tabsContent.forEach(item => {
+            item.classList.add('tabs-hide');
+            item.classList.remove('tabs-show');
+        });
+
+        tabsItemBtn.forEach(btn =>{
+            btn.classList.remove('tabs-active');
+        })
+    }
+    function tabsShow(i){
+        tabsContent[i].classList.add('tabs-show');
+        tabsContent[i].classList.remove('tabs-hide');
+        tabsItemBtn[i].classList.add('tabs-active');
+    }
+
+    if(tabsItem && tabsItemBtn && tabsContent){
+      tabsItem.addEventListener('click', (e)=>{
+        const target = e.target;
+        
+        if(target && target.classList.contains('tabs__item-btn')){
+            tabsItemBtn.forEach((item, i)=>{
+                if(target == item){
+                    tabsHide();
+                    tabsShow(i);
+                }
+              
+            })
+          
+        }
+    })
+
+    tabsHide();
+    tabsShow(0);
 
 
+    }
+  
 
 });

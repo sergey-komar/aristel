@@ -1,0 +1,28 @@
+.modal-block {
+    position: relative;
+}
+.payment__img {
+    width: 100%;
+}
+.modal-box {
+    padding: 5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+}
+.modal-box__title {
+    margin-bottom: 5rem;
+}
+.modal-box__text {
+    margin-bottom: 3rem;
+    font-size: 1.8rem;
+    line-height: 1.4;
+}
+.modal-box__img {
+    margin-left: auto;
+}
+.modal-block .total-block__btn{
+    margin-bottom: 2rem;
+}
