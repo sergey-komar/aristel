@@ -66,6 +66,9 @@
 
 
 @media(max-width: 1600px){
+    html{
+        font-size: 9px;
+    }
     .offer-block__right-promotion,
     .offer-block__right-text,
     .offer-block__right-btn{
@@ -118,7 +121,18 @@
     .slider .slick-next, .slider .slick-prev{
         top: 35%;
     }
+    .good-block__right-text,
+    .good-block__item-title{
+        font-size: 16px;
+    }
+    .services-box__item-popular::before {
+        top: 6px;
+        left: 23px;
+    }
+   
 }
+
+
 
 
 @media(max-width: 1400px){
@@ -206,6 +220,20 @@
     .successes-block__content{
         margin-left: 0;
     }
+    .good-block__left img{
+        width: 100%;
+    }
+    .specialists__title{
+        font-size: 5rem;
+    }
+    .treatment-box__img{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .offer{
+        padding-top: 0;
+    }
+   
 }
 
 
@@ -213,13 +241,50 @@
     .beadrcrumbs{
         margin-top: 14rem;
     }
+    .modal-box{
+        padding: 1rem;
+    }
+    .modal-box__title{
+        font-size: 28px;
+        line-height: 28px;
+        margin-bottom: 1rem;
+    }
+    .modal-box__text{
+        margin-bottom: 10px;
+    }
+    .modal-box__img{
+        display: none;
+    }
+    .tabs__content{
+        flex-direction: column;
+    }
+    .tabs__left,
+    .tabs__left{
+        width: 100%;
+    }
+    .lutronic{
+        padding: 3rem;
+    }
+    .specialists-block__img{
+        margin: 0 auto 20px auto;
+    }
+    .job-box__item{
+        margin-bottom: 30px;
+    }
+    .stock-block__right-link{
+        font-size: 18px;
+    }
+    .total-block__right{
+        margin-bottom: 30px;
+    }
+    
 }
 
 
 
 @media(max-width: 1000px){
     html{
-        font-size: 9px;
+        font-size: 8px;
     }
     .services-page__item{
         text-transform: none;
@@ -265,8 +330,29 @@
         margin-top: 11rem;
     }
     .services-box--page .services-box__item-popular::before{
-        top: 6px;
-        left: 22px;
+        top: 5px;
+        left: 18px;
+    }
+    .treatment-box__text p,
+    .causes__list-item,
+    .causes__text{
+        font-size: 16px;
+    }
+    .reviews-box,
+    .reviews-form__top{
+        flex-direction: column;
+    }
+    .reviews-form__item{
+        width: 100%;
+    }
+    .genius-box__content-text{
+        font-size: 16px;
+    }
+    .stock-block:nth-child(2) .stock-block--order{
+        order: 1;
+    }
+    .offer-block__left-img{
+        width: 100%;
     }
 }
 
@@ -274,10 +360,7 @@
 
 
 
-@media(max-width: 700px){
-    html{
-        font-size: 8px;
-    }
+@media(max-width: 768px){
     .services-box__item-popular{
         margin-top: -15px;
         margin-bottom: 5px;
@@ -319,7 +402,9 @@
     .problem{
         padding: 4rem 0 4rem 0;
     }
-    
+    .problem--problem{
+        padding-top: 0;
+    }
     .beadrcrumbs{
         margin-top: 7rem;
     }
@@ -373,23 +458,68 @@
         top: 5px;
         left: 18px;
     }
-    
+    .job-box__item{
+        margin-bottom: 30px;
+    }
+    .contacts{
+        padding: 0 0 4rem 0;
+    }
+    .modal-box{
+        width: 300px;
+        padding: 3rem;
+        position: fixed;
+        z-index: 5;
+    }
+    .modal-box__text{
+        font-size: 16px;
+    }
+    .treatment__title,
+    .services__page-title{
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+    .job-box__item-img{
+        margin: 0 auto 15px auto;
+    }
+    .job-box__item-title,
+   .job-box__item-text{
+        text-align: center;
+   }
 }
 
 
 
 
 @media(max-width: 576px){
-    .services__page-title{
+    .services__page-title,
+    .reviews__title,
+    .total__title{
         margin-bottom: 2rem;
         font-size: 32px;
         line-height: 36px;
-        text-align: center;
     }
-    .services-box__item-title{
+    .specialists__title,
+    .present__title{
+        margin-bottom: 0;
+        padding: 10px 0;
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .problem__title,
+    .treatment__title{
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .title{
+        margin-bottom: 20px;
+        font-size: 27px;
+        line-height: 29px;
+    }
+    .services-box__item-title,
+    .contacts-block__item-title{
         margin-bottom: 1rem;
         font-size: 24px;
-        line-height: 28px;
+        line-height: 1.1;
     }
     .services-page__item{
         padding: 1rem;
@@ -399,7 +529,8 @@
         padding-left: 0;
     }
     .services-box__item-text,
-    .footer-block__contact-text{
+    .footer-block__contact-text,
+    .contacts-block__item-text{
         font-size: 18px;
         line-height: 22px;
     }
@@ -413,10 +544,11 @@
         top: 0;
         left: -14px;
     }
-    .form-services__left-title{
+    .form-services__left-title,
+    .specialist-info__title{
         margin-bottom: 3rem;
         font-size: 24px;
-        line-height: 26px;
+        line-height: 1.1;
     }
     .form-services__box-text{
         font-size: 18px;
@@ -438,7 +570,7 @@
     .footer-block__contact-title,
     .slider__title{
         font-size: 24px;
-        line-height: 26px;
+        line-height: 1.1;
     }
     .footer-block__contact{
         padding: 0;
@@ -447,7 +579,7 @@
     .offer__title{
         margin-bottom: 2rem;
         font-size: 24px;
-        line-height: 31px;
+        line-height: 24px;
     }
     .good-block__item{
         width: 100%;
@@ -494,11 +626,10 @@
     .slider-services__item{
        margin: 0 5px 20px 5px;
     }
-    .slider-services__item-title,
-    .problem__title{
+    .slider-services__item-title{
         margin-bottom: 5px;
         font-size: 24px;
-        line-height: 28px;
+        line-height: 1.1;
     }
     .slider-services .slick-list {
         padding: 0 30px !important;
@@ -561,10 +692,11 @@
         padding-bottom: 4rem;
     }
     .successes-block__content-title,
-    .services-box__wrapper-title{
+    .services-box__wrapper-title,
+    .stock-block__right-title{
         margin-bottom: 20px;
         font-size: 24px;
-        line-height: 30px;
+        line-height: 1.1;
     }
     .successes-block__content-text{
         margin-bottom: 15px;
@@ -583,5 +715,136 @@
     .slider .slick-next {
         right: calc(5% - 105px);
     }
-
+    .director-block__content-img{
+        width: 110px;
+   }
+   .job-box__item-img,
+   .job-box__item-title{
+    margin-bottom: 10px;
+   }
+   .job-box__item-title,
+   .job-box__item-text{
+        font-size: 22px;
+        text-align: center;
+   }
+   .specialist-info__list,
+   .certificates-box__item,
+   .contacts-block__item{
+    margin-bottom: 2rem;
+   }
+   .job-box{
+    margin-bottom: 0;
+   }
+   .modal-box__title{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+    .present-box__item-img{
+        margin-bottom: 20px;
+    }
+    .present__text{
+        font-size: 16px;
+    }
+    .reviews-box__img{
+        min-width: 150px;
+        height: 150px;
+    }
+    .reviews-box__img img{
+        width: 150px;
+    }
+    .reviews-box__info-title{
+        margin-bottom: 20px;
+    }
+    .reviews-block__item,
+    .reviews-form__item{
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .reviews-block__left-img{
+        width: 90px;
+    }
+    .reviews-form__item span{
+        min-width: auto;
+        text-align: left;
+        font-size: 16px;
+        width: 100%;
+    }
+    .reviews-form__item-input{
+        width: 100%;
+    }
+    .reviews-form{
+        padding: 2.5rem;
+    }
+    .reviews-form__text{
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    .reviews-form__item-input{
+        height: 45px;
+        line-height: 45px;
+    }
+    .reviews-form__textarea{
+        height: 100px;
+    }
+    .reviews-form__btn{
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+    }
+    .genius{
+        padding: 0 0 3rem 0;
+    }
+    .price{
+        padding-top: 3rem;
+    }
+    .price-block{
+        padding: 2rem;
+    }
+    .specialists__inner,
+    .specialists-block__content{
+        padding: 2rem;
+    }
+    .specialists-block__content-title{
+        margin-top: 10px;
+        font-size: 22px;
+    }
+    .specialists-block__content-subtitle{
+        font-size: 22px;
+    }
+    .stock__title{
+        padding: 0;
+    }
+    .stock-block__content,
+    .stock-block{
+        padding: 20px;
+    }
+    .stock-block__left{
+        margin-bottom: 20px;
+    }
+    .stock-block{
+        background-position: center;
+    }
+    .stock-wrapper{
+        padding-bottom: 0;
+    }
+    .total-block__item-input{
+        height: 45px;
+        line-height: 45px;
+    }
+    .total-block__item-text{
+        font-size: 16px;
+    }
+    .total-block__item{
+        margin-bottom: 3rem;
+    }
+    .total-block__item-textarea{
+        height: 15rem;
+    }
+    .total-block__item-btn{
+        width: 100%;
+        margin-left: 0;
+    }
+    .total-block__btn{
+        width: 100%;
+    }
 }
