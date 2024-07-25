@@ -23,7 +23,7 @@
         max-width: 120rem;
     }
     .problem-box__item--left .problem-box__item-text::after, .problem-box__item--right .problem-box__item-text::before{
-        width: 120px;
+        width: 110px;
     }
     .problem-box__item--left .problem-box__item-text::after{
         right: -130px;
@@ -108,8 +108,18 @@
     .slider-box__right-text{
         background-color: transparent;
     }
-    .problem-box__item--left .problem-box__item-text::after, .problem-box__item--right .problem-box__item-text::before{
-        display: none;
+   
+    .problem-box__item--right .problem-box__item-text:nth-child(odd):before{
+        left: -145px;
+    }
+    .problem-box__item--left .problem-box__item-text:nth-child(odd)::after{
+        right: -145px;
+    }
+    .problem-box__item--right .problem-box__item-text::before{
+        left: -100px;
+    }
+    .problem-box__item--left .problem-box__item-text::after{
+        right: -100px;
     }
     .beadrcrumbs{
         margin-top: 9rem;
@@ -198,9 +208,7 @@
     .slider-box{
         max-width: 60rem;
     }
-    .problem-box__item--right{
-        display: none;
-    }
+    
     .director-block__text{
         width: 100%;
     }
@@ -233,6 +241,9 @@
     .offer{
         padding-top: 0;
     }
+      .problem-box__item--left .problem-box__item-text::after, .problem-box__item--right .problem-box__item-text::before{
+         display: none;
+     }
    
 }
 
@@ -276,6 +287,9 @@
     }
     .total-block__right{
         margin-bottom: 30px;
+    }
+    .problem-box__item--right{
+        display: none;
     }
     
 }
@@ -490,6 +504,9 @@
 
 
 
+
+
+
 @media(max-width: 576px){
     .services__page-title,
     .reviews__title,
@@ -673,7 +690,7 @@
         margin-top: 3rem;
     }
     .heading-block--btn img{
-        width: 80px;
+        width: 65px;
     }
     .good-block__left{
         margin-top: 4rem;
@@ -846,5 +863,55 @@
     }
     .total-block__btn{
         width: 100%;
+    }
+    .slider-about{
+        margin-bottom: 3rem;
+    }
+    .good--about{
+        margin-bottom: 3rem;
+    }
+    .tabs__item{
+        flex-direction: column;
+    }
+    .tabs__item-btn{
+        padding: 1rem;
+        font-size: 24px;
+        text-transform: none;
+    }
+    .lutronic{
+        padding: 1rem;
+    }
+    .price-box__item{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .stock-block__content{
+        margin-bottom: 2rem;
+    }
+    .stock-block__right-link{
+        margin-right: 0;
+        text-align: left;
+    }
+    .stock-block,
+    .stock-block__content{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .stock-block__right-link::after{
+        right: auto;
+    }
+    .stock-block__content-title{
+        line-height: 22px;
+    }
+    .specialists__inner{
+       padding: 0;
+    }
+    h1.contact__title{
+        margin-top: 0;
+    }
+    .feedback-box__label-checkbox{
+        width: 20px;
+        height: 20px;
     }
 }
