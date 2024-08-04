@@ -482,7 +482,7 @@
         width: 300px;
         padding: 3rem;
         position: fixed;
-        z-index: 5;
+        z-index: 2;
     }
     .modal-box__text{
         font-size: 16px;
@@ -498,6 +498,9 @@
     .job-box__item-title,
    .job-box__item-text{
         text-align: center;
+   }
+   .menu-stiky{
+        top: 110px;
    }
 }
 
@@ -913,5 +916,36 @@
     .feedback-box__label-checkbox{
         width: 20px;
         height: 20px;
+    }
+    .form-services__right img{
+        width: 60%;
+    }
+    .slider .slick-prev::before{
+        width: 45px;
+        height: 45px;
+        top: 26%;
+        background: url('../images/home/arrow_left-mobile.png') no-repeat;
+        background-position: center;
+    }
+    .slider .slick-next::before{
+        width: 45px;
+        height: 45px;
+        top: 26%;
+        background: url('../images/home/arrow_right-mobile.png') no-repeat;
+        background-position: center;
+    }
+    .slider .slick-prev{
+        width: 70px;
+        height: 110px;
+        left: 8px;
+        border-top-right-radius: 60px;
+        border-bottom-right-radius: 60px;
+    }
+    .slider .slick-next{
+        width: 72px;
+        height: 106px;
+        border-top-right-radius: 60px;
+        border-bottom-right-radius: 60px;
+        right: calc(5% - 80px)
     }
 }
