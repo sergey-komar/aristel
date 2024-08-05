@@ -32,22 +32,17 @@
     text-align: center;
 }
 .stock-block__right-link {
+    max-width: 37rem;
+    width: 100%;
+    margin-left: auto;
+    height: 7.5rem;
+    line-height: 7.5rem;
     display: block;
-    position: relative;
-    margin-right: 11rem;
+    border: none;
+    background: #73aebe;
+    color: #fff;
     text-transform: uppercase;
-    text-decoration: underline;
-    font-size: 20px;
-    text-align: right;
-}
-.stock-block__right-link::after{
-    position: absolute;
-    content: '';
-    width: 55px;
-    height: 30px;
-    right: -7rem;
-    top: 0;
-    background: url('../images/stock/stock-link.svg') no-repeat;
+    text-align: center;
 }
 .stock-block:nth-child(2) .stock-block--order{
     order: -1;

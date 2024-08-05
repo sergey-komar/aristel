@@ -893,8 +893,11 @@
         margin-bottom: 2rem;
     }
     .stock-block__right-link{
-        margin-right: 0;
-        text-align: left;
+        margin-left: 0;
+        height: 50px;
+        line-height: 50px;
+        max-width: 100%;
+        
     }
     .stock-block,
     .stock-block__content{
