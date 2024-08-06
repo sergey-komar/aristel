@@ -102,14 +102,113 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
 
+  const modalBtn = document.querySelector('.header-box__btn');
+  const modal = document.querySelector('.modal-menu');
+  const modalCloseBtn = document.querySelector('.modal__close');
+
+        if(modalBtn){
+          modalBtn.addEventListener('click', ()=>{
+            modal.classList.add('modal-show');
+            modal.classList.remove('modal-hide');
+            document.body.style.overflow = 'hidden';
+          })
+        }
+       
+      if(modalCloseBtn){
+        modalCloseBtn.addEventListener('click', ()=>{
+          modal.classList.add('modal-hide');
+          modal.classList.remove('modal-show');
+          document.body.style.overflow = '';
+        
+        });
+      }
+     
+      if(modal){
+        modal.addEventListener('click', (e)=>{
+          if(e.target == modal){
+              modal.classList.add('modal-hide');
+              modal.classList.remove('modal-show');
+              document.body.style.overflow = '';
+          }
+        });
+
+      }
+      
+      document.addEventListener('keydown', (e)=>{
+          if(e.code == 'Escape' && modal.classList.contains('modal-show')){
+              modal.classList.add('modal-hide');
+              modal.classList.remove('modal-show');
+              document.body.style.overflow = '';
+          }
+      })
+     
+
+
+
+
+
+      const modalBtn1 = document.querySelector('.slider-box__right-btn');
+      const modal1 = document.querySelector('.modal-slider');
+      const modalCloseBtn1 = document.querySelector('.modal-slider__close');
+    
+            if(modalBtn1){
+              modalBtn1.addEventListener('click', ()=>{
+                modal1.classList.add('modal-slider-show');
+                modal1.classList.remove('modal-slider-hide');
+                document.body.style.overflow = 'hidden'; 
+              })
+            }
+           
+          if(modalCloseBtn1){
+            modalCloseBtn1.addEventListener('click', ()=>{
+              modal1.classList.add('modal-slider-hide');
+              modal1.classList.remove('modal-slider-show');
+              document.body.style.overflow = '';
+            
+            });
+          }
+         
+          if(modal1){
+            modal1.addEventListener('click', (e)=>{
+              if(e.target == modal){
+                  modal1.classList.add('modal-slider-hide');
+                  modal1.classList.remove('modal-slider-show');
+                  document.body.style.overflow = '';
+                
+              }
+            });
+    
+          }
+          
+          document.addEventListener('keydown', (e)=>{
+              if(e.code == 'Escape' && modal.classList.contains('modal-slider-show')){
+                  modal.classList.add('modal-slider-hide');
+                  modal.classList.remove('modal-slider-show');
+                  document.body.style.overflow = '';
+                  
+              }
+          })
+    
+    
+
+
     // Маска для Инпута
 var element = document.getElementById('input-mask');
+var element1 = document.getElementById('input-mask1');
+var element2 = document.getElementById('input-mask2');
 var maskOptions = {
 	mask: '+{7}(000)000-00-00'
 };
 if(element){
     var mask = IMask(element, maskOptions);
 }
+if(element1){
+  var mask = IMask(element1, maskOptions);
+}
+if(element2){
+  var mask = IMask(element2, maskOptions);
+}
+
 
 
 const headingBlock = document.querySelector(".heading-block");

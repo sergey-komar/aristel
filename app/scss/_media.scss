@@ -502,6 +502,38 @@
    .menu-stiky{
         top: 110px;
    }
+   .modal-form__item, .modal-slider-form__item{
+    flex-direction: column;
+   }
+   .modal-form__item span, .modal-slider-form__item span,
+   .modal-form__input, .modal-slider-form__input,
+   .modal-form-textarea, .modal-slider-form-textarea{
+        width: 100%;
+   }
+   .modal-form__btn, .modal-slider-form__btn{
+        max-width: 100%;
+   }
+   .modal-form, .modal-slider-form{
+        max-width: 500px;
+        width: 100%;
+   }
+   .modal__inner, .modal-slider__inner{
+        max-width: 500px;
+        padding: 0 10px;
+        width: 100%;
+   }
+   .modal-slider-form-textarea,
+   .modal-form-textarea{
+       margin-top: 5px;
+   }
+   .modal__close, .modal-slider__close {
+        right: 25px;
+        top: 12px;
+   }
+   .modal-form-textarea, .modal-slider-form-textarea{
+    height: 100px;
+   }
+
 }
 
 
@@ -945,10 +977,10 @@
         border-bottom-right-radius: 60px;
     }
     .slider .slick-next{
-        width: 72px;
+        width: 79px;
         height: 106px;
         border-top-right-radius: 60px;
         border-bottom-right-radius: 60px;
-        right: calc(5% - 80px)
+        right: calc(5% - 92px)
     }
 }
