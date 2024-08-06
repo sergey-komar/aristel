@@ -123,29 +123,8 @@ window.addEventListener('DOMContentLoaded', () => {
         });
       }
      
-      if(modal){
-        modal.addEventListener('click', (e)=>{
-          if(e.target == modal){
-              modal.classList.add('modal-hide');
-              modal.classList.remove('modal-show');
-              document.body.style.overflow = '';
-          }
-        });
-
-      }
-      
-      document.addEventListener('keydown', (e)=>{
-          if(e.code == 'Escape' && modal.classList.contains('modal-show')){
-              modal.classList.add('modal-hide');
-              modal.classList.remove('modal-show');
-              document.body.style.overflow = '';
-          }
-      })
      
-
-
-
-
+      
 
       const modalBtn1 = document.querySelector('.slider-box__right-btn');
       const modal1 = document.querySelector('.modal-slider');
@@ -168,27 +147,7 @@ window.addEventListener('DOMContentLoaded', () => {
             });
           }
          
-          if(modal1){
-            modal1.addEventListener('click', (e)=>{
-              if(e.target == modal){
-                  modal1.classList.add('modal-slider-hide');
-                  modal1.classList.remove('modal-slider-show');
-                  document.body.style.overflow = '';
-                
-              }
-            });
-    
-          }
-          
-          document.addEventListener('keydown', (e)=>{
-              if(e.code == 'Escape' && modal.classList.contains('modal-slider-show')){
-                  modal.classList.add('modal-slider-hide');
-                  modal.classList.remove('modal-slider-show');
-                  document.body.style.overflow = '';
-                  
-              }
-          })
-    
+        
     
 
 
