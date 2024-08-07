@@ -4,7 +4,7 @@
     overflow-x: hidden;
 }
 .header {
-    min-width: 20rem;
+    min-width: 17.5rem;
     
 }
 .header-box {
@@ -43,6 +43,18 @@
     background: rgb(115, 174, 190);
     text-decoration: underline;
     color: #fff;
+}
+.act.active{
+    min-width: 36rem;
+    display: block;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-family: 'Optimal';
+    padding: 1rem;
+    background: rgb(115, 174, 190);
+    text-decoration: underline;
+    color: #fff;
+    text-align: center;
 }
 .header-box__phone {
     margin-bottom: 1.5rem;
