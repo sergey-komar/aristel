@@ -85,7 +85,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const logoModile = document.querySelector(".logo-mobile");
     const menStiky = document.querySelector('.menu-stiky');
 
-    if (logoModile) {
+    if (logoModile && menStiky) {
       window.addEventListener("scroll", () => {
         if (window.scrollY) {
           logoModile.classList.add("logo-mobile-hidden");
@@ -126,22 +126,26 @@ window.addEventListener('DOMContentLoaded', () => {
      
       
 
-      const modalBtn1 = document.querySelector('.slider-box__right-btn');
-      const modal1 = document.querySelector('.modal-slider');
-      const modalCloseBtn1 = document.querySelector('.modal-slider__close');
+      const modalBtn1 = document.querySelectorAll('.slider-box__right-btn');
+      const modal1 = document.querySelector('.modal-menu');
+      const modalCloseBtn1 = document.querySelector('.modal__close');
     
+          
+
             if(modalBtn1){
-              modalBtn1.addEventListener('click', ()=>{
-                modal1.classList.add('modal-slider-show');
-                modal1.classList.remove('modal-slider-hide');
-                document.body.style.overflow = 'hidden'; 
+              modalBtn1.forEach(item => {
+                item.addEventListener('click', () => {
+                  modal1.classList.add('modal-show');
+                  modal1.classList.remove('modal-hide');
+                  document.body.style.overflow = 'hidden'; 
+                })
               })
             }
            
           if(modalCloseBtn1){
             modalCloseBtn1.addEventListener('click', ()=>{
-              modal1.classList.add('modal-slider-hide');
-              modal1.classList.remove('modal-slider-show');
+              modal1.classList.add('modal-hide');
+              modal1.classList.remove('modal-show');
               document.body.style.overflow = '';
             
             });

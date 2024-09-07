@@ -20,7 +20,7 @@
     }
     .slider-box{
         margin: 0 auto;
-        max-width: 120rem;
+        max-width: 140rem;
     }
     .problem-box__item--left .problem-box__item-text::after, .problem-box__item--right .problem-box__item-text::before{
         width: 110px;
@@ -37,23 +37,34 @@
         flex-wrap: wrap;
         gap: 5rem;
     }
-   
 
+}
+
+@media(max-width: 1800px){
+    .slider-box{
+        max-width: 130rem;
+    }
 }
 
 
 @media(max-width: 1750px){
-    .header,
-    .menu,
-    .menu__list li a,
-    .act.active{
-        min-width: 14rem;
-    }
-    .header-box{
-        width: 30rem;
+    // .header,
+    // .menu,
+    // .menu__list li a,
+    // .act.active{
+    //     min-width: 14rem;
+    // }
+    // .header-box{
+    //     width: 30rem;
+    // }
+    .slider-box {
+        max-width: 124rem;
     }
     .header-box__btn{
         width: 250px;
+    }
+    .header {
+        min-width: 160px;
     }
     .logo,
     .header-box__btn {
@@ -64,9 +75,15 @@
     }
 }
 
+@media(max-width: 1670px){
+    .slider-box {
+        max-width: 119rem;
+    }
+}
 
 
-@media(max-width: 1600px){
+
+@media(max-width: 1595px){
     html{
         font-size: 9px;
     }
@@ -140,6 +157,9 @@
         top: 6px;
         left: 23px;
     }
+    .header-box{
+        left: 6px;
+     }
    
 }
 
@@ -147,6 +167,15 @@
 
 
 @media(max-width: 1400px){
+     .header,
+    .menu,
+    .menu__list li a,
+    span.act.active{
+        min-width: 14rem;
+    }
+    .header-box{
+        width: 32rem;
+    }
     .form-services{
         padding: 2rem;
         padding-bottom: 0;
@@ -245,6 +274,7 @@
       .problem-box__item--left .problem-box__item-text::after, .problem-box__item--right .problem-box__item-text::before{
          display: none;
      }
+     
    
 }
 
@@ -301,6 +331,15 @@
     html{
         font-size: 8px;
     }
+     .header,
+    .menu,
+    .menu__list li a,
+    .act.active{
+        min-width: 12rem;
+    }
+    .header-box{
+        left: 4px;
+    }
     .services-page__item{
         text-transform: none;
     }
@@ -341,6 +380,7 @@
         height: 6rem;
         line-height: 6rem;
     }
+    
     .beadrcrumbs{
         margin-top: 11rem;
     }
